@@ -6,8 +6,8 @@
 #include <string.h>
 
 // STRUCT Cadastro:
-//Estrutura que representa o conteúdo a ser armazernado em cada nodo da trie.
-//Apresentada na forma de um cadastro contendo um char para um nome (até 1000 caracteres) e um inteiro para a idade.
+// Estrutura que representa o conteúdo a ser armazernado em cada nodo da trie.
+// Apresentada na forma de um cadastro contendo um char para um nome (até 1000 caracteres) e um inteiro para a idade.
 typedef struct {
     char Nome[1001];
     int Idade;
