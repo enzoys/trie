@@ -8,45 +8,63 @@ Uma Trie (árvore de prefixos) é uma estrutura de dados de árvore especializad
 
 ### Estrutura da Trie
 
-#### Nodos
+##### Nodos
+
 Cada nodo na Trie representa um caractere da string.
 Cada nodo tem um conjunto fixo de filhos, um para cada caractere possível.
 Cada nodo pode ter um ponteiro para um valor associado (por exemplo, um cadastro).
 
-#### Caminhos
+##### Caminhos
+
 Os caminhos da raiz até os nodos folha formam as strings armazenadas.
 
 ### Funcionamento da Trie
+
 #### Inserção
+
 Para inserir uma nova string, cada caractere é inserido como um nodo, seguindo o caminho correspondente.
 Se o caminho não existir, novos nodos são criados.
 Um nodo final geralmente contém um indicador de fim de palavra ou o valor associado.
-##### Busca
+
+#### Busca
+
 Para buscar uma string, você percorre a árvore seguindo o caminho correspondente aos caracteres da string.
 Se o caminho existir e você alcançar um nodo final, a string está presente na Trie.
+
 #### Remoção
+
 Para remover uma string, você percorre a árvore até o nodo correspondente à string.
 O nodo final é removido, e se ele era o único caminho para um caractere, os nodos pai desse nodo podem ser removidos recursivamente, até que não haja mais referências.
 
 ### Vantagens da trie
-#### Eficiente para Prefixos
+
+##### Eficiente para Prefixos
+
 A Trie é eficiente para buscas por prefixo, uma vez que compartilha os prefixos comuns entre as strings.
-#### Busca Rápida
+
+##### Busca Rápida
+
 A busca em uma Trie é geralmente mais rápida do que em outras estruturas de dados para conjuntos de dados pequenos e médios.
 
 ### Desvantagens da trie
-#### Uso de Memória
+
+##### Uso de Memória
+
 A principal desvantagem da Trie é o uso de memória. Ela pode se tornar muito grande para conjuntos de dados grandes e pode levar a um alto consumo de memória.
-#### Complexidade
+
+##### Complexidade
+
 Implementar uma Trie pode ser complexo em comparação com estruturas de dados mais simples.
 
 # Uso e Compilação
 
-### Versão: 1.1.0
+#### Versão: 1.1.0
 
-## Requisitos para Compilação
+## Requisitos
 
 Compilador C (recomendado GCC)
+
+## Compilação
 
 Para usar as funções em um programa C, inclua o arquivo de biblioteca trie.h no seu código fonte. Certifique-se de compilar o código juntamente com o arquivo trie.c para que as funções sejam devidamente vinculadas.
 
