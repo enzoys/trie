@@ -62,7 +62,7 @@ Implementar uma Trie pode ser complexo em comparação com estruturas de dados m
 
 ## Requisitos
 
-Compilador C (recomendado GCC)
+Compilador C
 
 ## Compilação
 
