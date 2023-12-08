@@ -66,24 +66,6 @@ Compilador C (recomendado GCC)
 
 ## Compilação
 
-##### Uso de Memória
-
-A principal desvantagem da Trie é o uso de memória. Ela pode se tornar muito grande para conjuntos de dados grandes e pode levar a um alto consumo de memória.
-
-##### Complexidade
-
-Implementar uma Trie pode ser complexo em comparação com estruturas de dados mais simples.
-
-# Uso e Compilação
-
-#### Versão: 1.1.0
-
-## Requisitos
-
-Compilador C (recomendado GCC)
-
-## Compilação
-
 Para usar as funções em um programa C, inclua o arquivo de biblioteca trie.h no seu código fonte. Certifique-se de compilar o código juntamente com o arquivo trie.c para que as funções sejam devidamente vinculadas.
 
     gcc seu_programa.c trie.c -o seu_programa
