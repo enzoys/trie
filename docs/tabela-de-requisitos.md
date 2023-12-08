@@ -11,13 +11,13 @@
 | RF-07 | Para o comando S, salvar todos os cadastros presentes na trie no arquivo "banco.txt" e imprimir mensagem de confirmação. |
 | RF-08 | Para o comando F, terminar a execução do programa. |
 
-### Requisitos Não Funcionais:
+### Requisitos Não Funcionais
 
-    Número		Descrição do Requisito
-    RNF-01		O programa deve ser implementado em linguagem C.
-    RNF-02		A estrutura de dados deve ser uma trie para armazenar os cadastros.
-    RNF-03		Cada nó terminal da trie deve conter um ponteiro para uma struct com os dados completos do cadastro.
-    RNF-04		IDs têm no máximo 30 caracteres, Nomes Completos têm no máximo 1000 caracteres, e as idades variam de 0 a 99 anos.
-    RNF-05		Todo comando deve ser processado a partir da trie.
-    RNF-06		Ao final da execução, liberar toda a memória utilizada pelo programa.
-
+| Número | Descrição do Requisito |
+| ------ | ------ |
+| RNF-01 | O programa deve ser implementado em linguagem C. |
+| RNF-02 | A estrutura de dados deve ser uma trie para armazenar os cadastros. |
+| RNF-03 | Cada nó terminal da trie deve conter um ponteiro para uma struct com os dados completos do cadastro. |
+| RNF-04 | IDs têm no máximo 30 caracteres, Nomes Completos têm no máximo 1000 caracteres, e as idades variam de 0 a 99 anos. |
+| RNF-05 | Todo comando deve ser processado a partir da trie. |
+| RNF-06 | Ao final da execução, liberar toda a memória utilizada pelo programa. |
