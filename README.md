@@ -1,4 +1,4 @@
-# Trie e Testes Unitários
+# Biblioteca Trie e Testes Unitários
 
 O código implementa uma árvore trie para armazenar e manipular informações de cadastros (nome e idade) associados a IDs. Também foram implementadas funções para realizar operações como busca, inserção, remoção, impressão e salvamento do conteúdo da árvore em um arquivo de texto. Foi disponibilizado um teste unitário em CUnit para testar o funcionamento da função de Busca
 
@@ -47,6 +47,24 @@ A Trie é eficiente para buscas por prefixo, uma vez que compartilha os prefixos
 A busca em uma Trie é geralmente mais rápida do que em outras estruturas de dados para conjuntos de dados pequenos e médios.
 
 ### Desvantagens da trie
+
+##### Uso de Memória
+
+A principal desvantagem da Trie é o uso de memória. Ela pode se tornar muito grande para conjuntos de dados grandes e pode levar a um alto consumo de memória.
+
+##### Complexidade
+
+Implementar uma Trie pode ser complexo em comparação com estruturas de dados mais simples.
+
+# Uso e Compilação
+
+#### Versão: 1.1.0
+
+## Requisitos
+
+Compilador C (recomendado GCC)
+
+## Compilação
 
 ##### Uso de Memória
 

@@ -35,9 +35,9 @@ int main() {
 
     // Executa os testes
     CU_basic_run_tests();
-/*
+
     // Limpa o registro de suítes
     CU_cleanup_registry();
-*/
+
     return CU_get_error();
 }
