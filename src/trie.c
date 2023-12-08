@@ -26,6 +26,8 @@ Cadastro *criaCadastro(char *s, int idade) {
 // Função que recebe como parâmetros um nodo (trie) e uma string (s) e busca recursivamente a chave correspondente na árvore trie e retorna um ponteiro para o conteúdo (tipo Cadastro). 
 // A busca ocorre até que a string de entrada (ID) seja totalmente processada ou o nodo correspondente seja nulo.
 Cadastro *Busca(Nodo *trie, char *s) {
+    if (trie == NULL)
+        return NULL;
     if (*s == '\0')
         return trie->conteudo;
     if (trie->filho[(*s) - 'a'] == NULL)
